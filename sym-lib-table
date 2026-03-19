@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "the-claw")(type "KiCad")(uri "${KIPRJMOD}/libs/the-claw.kicad_sym")(options "")(descr ""))
+  (lib (name "easyeda")(type "KiCad")(uri "${KIPRJMOD}/libs/easyeda.kicad_sym")(options "")(descr ""))
+)

@@ -1,4 +1,4 @@
-27769862306073238
+27771636317662094
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -109990,6 +109990,13 @@ CONN-SM26B-ZPDSS-TF
 0
 26
 26
+the-claw
+DB125-2.54-3P
+
+
+0
+3
+3
 the-claw
 DB125-2.54-4P
 

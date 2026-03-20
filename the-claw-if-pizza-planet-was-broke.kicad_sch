@@ -2061,586 +2061,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NMOS N-MOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Q_PMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "PMOS P-MOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_PMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -3128,6 +2548,304 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:BSS84"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSS84"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BSS84_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BSS84_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4119,6 +3837,296 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "the-claw:MS50N"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MS50N"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, 60V 50A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NMOS N-MOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MS50N_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MS50N_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 24.13 101.6)
@@ -4422,12 +4430,6 @@
 		(uuid "3928eeac-b92f-4b3d-ba74-afdc0c1aed52")
 	)
 	(junction
-		(at 190.5 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ce66e62-23f6-493c-8828-b89d47699371")
-	)
-	(junction
 		(at 73.66 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4540,6 +4542,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5386e58-603a-4dbb-9c8f-ab10e4d58cd0")
+	)
+	(junction
+		(at 190.5 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee223dc3-ea22-4438-a9b4-c95416b05bdc")
 	)
 	(wire
 		(pts
@@ -4950,16 +4958,6 @@
 			(type default)
 		)
 		(uuid "46debfee-6b90-44ee-a69b-6609258b746a")
-	)
-	(wire
-		(pts
-			(xy 115.57 147.32) (xy 115.57 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4be1b9b3-67e0-4284-b506-e27088ead366")
 	)
 	(wire
 		(pts
@@ -5440,6 +5438,16 @@
 			(type default)
 		)
 		(uuid "9065cb99-67bc-4876-b9de-8a593b198c8e")
+	)
+	(wire
+		(pts
+			(xy 115.57 125.73) (xy 115.57 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9332c3b1-d081-48d1-941c-18520379c95e")
 	)
 	(wire
 		(pts
@@ -6283,6 +6291,16 @@
 		)
 		(uuid "0cd35a0e-6cbc-4445-b458-9aa28b97dda0")
 	)
+	(label "SOLENOID_ENABLE"
+		(at 156.21 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1049898d-9eaf-4ea3-83cd-c421e230d9dd")
+	)
 	(label "VACUUM_POWER"
 		(at 240.03 144.78 0)
 		(effects
@@ -6389,16 +6407,6 @@
 		)
 		(uuid "5da2d4e6-22b6-45f3-9f19-572faa2ce2b3")
 	)
-	(label "SOLENOID_ENABLE"
-		(at 156.21 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "614ba341-73ef-4044-afb2-e43e0179fbf3")
-	)
 	(label "LASER_PWM_3V3"
 		(at 176.53 66.04 180)
 		(effects
@@ -6429,6 +6437,16 @@
 		)
 		(uuid "6efaba81-7291-4718-9f93-1186f8b520d9")
 	)
+	(label "VACUUM_ENABLE"
+		(at 156.21 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70bb25e3-8cdb-4c38-9cd2-569b29ba8328")
+	)
 	(label "I2C_SDA"
 		(at 31.75 151.13 90)
 		(effects
@@ -6448,6 +6466,16 @@
 			(justify left bottom)
 		)
 		(uuid "73ce108b-bf73-4d38-b3a1-91d6bd4d4877")
+	)
+	(label "LASER_PWM_3V3"
+		(at 153.67 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7858b69c-2ef7-400e-bf39-97da2292b841")
 	)
 	(label "I2C_SCL"
 		(at 107.95 107.95 0)
@@ -6539,16 +6567,6 @@
 		)
 		(uuid "be910626-5372-4075-b2c6-8df212de4274")
 	)
-	(label "LASER_PWM"
-		(at 153.67 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d6c0ed9d-8001-44d3-becc-1213b4767aad")
-	)
 	(label "I2C_SCL"
 		(at 29.21 148.59 90)
 		(effects
@@ -6622,16 +6640,6 @@
 			(justify left bottom)
 		)
 		(uuid "f393fa81-c9f3-4852-b23f-a887d5ab443e")
-	)
-	(label "VACUUM_ENABLE"
-		(at 156.21 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f7d3ff54-e0a4-4ad1-9b0d-a31b3b95d00d")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -6726,7 +6734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 67.31 52.07 0)
 			(effects
 				(font
@@ -6763,6 +6771,77 @@
 			(project "the-claw-if-pizza-planet-was-broke"
 				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "the-claw:MS50N")
+		(at 153.67 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05d34c83-abcb-413e-a065-d6ee8d9c3453")
+		(property "Reference" "Q2"
+			(at 153.67 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MS50N"
+			(at 153.67 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 156.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, 60V 50A"
+			(at 153.67 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "913778d0-7002-4f9a-984c-bb3bc55b27d1")
+		)
+		(pin "1"
+			(uuid "2406ba26-9852-4c30-8951-64d31fa66585")
+		)
+		(pin "3"
+			(uuid "1e3a9ac1-3482-49f4-ac6b-68eead1c800b")
+		)
+		(instances
+			(project ""
+				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -7058,7 +7137,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 190.5 25.4 0)
 			(effects
 				(font
@@ -7095,6 +7174,82 @@
 			(project "the-claw-if-pizza-planet-was-broke"
 				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS84")
+		(at 152.4 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "218f5ecb-9723-4d61-a3ba-8c03677cf621")
+		(property "Reference" "Q5"
+			(at 158.75 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS84"
+			(at 158.75 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 157.48 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+			(at 157.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
+			(at 152.4 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f4ea186b-4de2-4729-99da-83225381afed")
+		)
+		(pin "1"
+			(uuid "bc3d7445-e17d-4467-b134-6f9e8efb95ab")
+		)
+		(pin "2"
+			(uuid "1db1e466-76f5-43f3-b81f-9320179169ce")
+		)
+		(instances
+			(project ""
+				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -7174,7 +7329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21bb230c-d936-4335-8d49-e3e259315e20")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 59.436 86.868 0)
 			(effects
 				(font
@@ -7192,7 +7347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 58.42 87.63 0)
 			(effects
 				(font
@@ -7228,7 +7383,7 @@
 		(instances
 			(project "the-claw-if-pizza-planet-was-broke"
 				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7262,7 +7417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
 			(at 203.2 15.24 0)
 			(effects
 				(font
@@ -7527,7 +7682,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 28.2448 48.26 0)
 			(effects
 				(font
@@ -7596,7 +7751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 74.6252 90.17 0)
 			(effects
 				(font
@@ -7674,7 +7829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 44.1452 177.8 0)
 			(effects
 				(font
@@ -7818,7 +7973,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 57.15 140.97 0)
 			(effects
 				(font
@@ -7952,7 +8107,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 151.13 59.69 0)
 			(effects
 				(font
@@ -8086,7 +8241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "the-claw:DB125-2.54-3P"
 			(at 121.92 74.93 0)
 			(effects
 				(font
@@ -8262,76 +8417,6 @@
 			(project ""
 				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 223.52 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "42198d0b-a7bc-4315-8684-903878539e07")
-		(property "Reference" "Q3"
-			(at 223.52 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_NMOS"
-			(at 223.52 145.288 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 223.52 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "D"
-			(uuid "d891c862-8781-4bc8-b112-7c60b0d87392")
-		)
-		(pin "G"
-			(uuid "5b7ed63d-68f0-4068-8bec-d6b254bf065c")
-		)
-		(pin "S"
-			(uuid "b8eaeff7-8e7d-4a3f-a288-64f19a1d02d5")
-		)
-		(instances
-			(project "the-claw-if-pizza-planet-was-broke"
-				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -8624,7 +8709,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "the-claw:DB125-2.54-4P"
 			(at 171.45 137.16 0)
 			(effects
 				(font
@@ -8699,7 +8784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 67.31 58.42 0)
 			(effects
 				(font
@@ -8736,6 +8821,79 @@
 			(project "the-claw-if-pizza-planet-was-broke"
 				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "the-claw:MS50N")
+		(at 195.58 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56a610dd-6140-4f98-9f57-cf1263cb3668")
+		(property "Reference" "Q4"
+			(at 201.93 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MS50N"
+			(at 201.93 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 200.66 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, 60V 50A"
+			(at 195.58 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "96895073-9b34-498d-981c-c2e472bebb0d")
+		)
+		(pin "2"
+			(uuid "c94ca6d7-9657-4622-ad7e-5d6aaa41a648")
+		)
+		(pin "1"
+			(uuid "cb0c7c87-7cba-48eb-9158-e7311adb144b")
+		)
+		(instances
+			(project ""
+				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -8807,6 +8965,77 @@
 		)
 	)
 	(symbol
+		(lib_id "the-claw:MS50N")
+		(at 223.52 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "624ac02a-8b81-4d20-9553-c53ae7729c20")
+		(property "Reference" "Q3"
+			(at 223.52 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MS50N"
+			(at 223.52 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 220.98 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, 60V 50A"
+			(at 223.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6c572780-d57c-44d1-aa8a-b05ded212602")
+		)
+		(pin "2"
+			(uuid "4a8a6503-98fa-4e97-bb28-44e94107da6a")
+		)
+		(pin "1"
+			(uuid "61685fed-b0a4-4927-8dd8-03b2b265e4f4")
+		)
+		(instances
+			(project ""
+				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 29.21 83.82 180)
 		(unit 1)
@@ -8833,7 +9062,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 28.2448 80.01 0)
 			(effects
 				(font
@@ -9211,7 +9440,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "the-claw:CONN-SM12B-ZPDSS-TF"
 			(at 243.84 100.33 0)
 			(effects
 				(font
@@ -9399,7 +9628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
 			(at 267.97 66.04 0)
 			(effects
 				(font
@@ -9516,79 +9745,6 @@
 			(project ""
 				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 195.58 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83a62a8c-23c0-403e-bb8b-9c03b79cd936")
-		(property "Reference" "Q4"
-			(at 201.93 21.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS"
-			(at 201.93 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 195.58 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "G"
-			(uuid "315eff9b-5e28-4ac0-9c34-24f4b1dce9a3")
-		)
-		(pin "S"
-			(uuid "7845347a-6bdd-46c7-9520-e43deb7d8d0c")
-		)
-		(pin "D"
-			(uuid "1de900fd-fd48-4f18-abdb-3da2b6f69563")
-		)
-		(instances
-			(project ""
-				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -9751,7 +9907,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 64.77 140.97 0)
 			(effects
 				(font
@@ -10016,7 +10172,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 135.89 26.67 0)
 			(effects
 				(font
@@ -10118,79 +10274,6 @@
 			(project "the-claw-if-pizza-planet-was-broke"
 				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_PMOS")
-		(at 152.4 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3617784-0f41-40f9-bc89-8767e2162562")
-		(property "Reference" "Q5"
-			(at 158.75 22.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_PMOS"
-			(at 158.75 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor"
-			(at 152.4 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "71b4b00f-5797-4dfb-8e29-c0f771bb5012")
-		)
-		(pin "D"
-			(uuid "fe66f163-b4c6-4582-947d-bab5dc7c0621")
-		)
-		(pin "G"
-			(uuid "eb4f3e70-28d9-4022-8ba3-ca311f573352")
-		)
-		(instances
-			(project ""
-				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -10481,7 +10564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 135.89 21.59 0)
 			(effects
 				(font
@@ -10550,7 +10633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 74.6252 60.96 0)
 			(effects
 				(font
@@ -10628,7 +10711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 64.77 52.07 0)
 			(effects
 				(font
@@ -10997,76 +11080,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 153.67 72.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6e24b6f-02e0-43e6-a3ad-5f3754bb59a5")
-		(property "Reference" "Q2"
-			(at 153.67 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_NMOS"
-			(at 153.67 80.772 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 153.67 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "D"
-			(uuid "9c0fa17c-9de5-4840-af5a-a1ce00728911")
-		)
-		(pin "G"
-			(uuid "07824d59-bd16-4ef2-a2aa-f282b8a91b78")
-		)
-		(pin "S"
-			(uuid "ea97228b-19d9-45f7-be4d-dff55ac02a91")
-		)
-		(instances
-			(project "the-claw-if-pizza-planet-was-broke"
-				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "the-claw:COS29xx2")
 		(at 44.45 85.09 0)
 		(unit 1)
@@ -11091,7 +11104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin6"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
 			(at 41.91 85.09 0)
 			(effects
 				(font
@@ -11208,76 +11221,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 180.34 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9f1a672-7b02-405f-a7e9-2c161059a463")
-		(property "Reference" "Q1"
-			(at 180.34 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_NMOS"
-			(at 180.34 145.288 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 180.34 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "D"
-			(uuid "b940a124-19a1-42f0-a372-aba6aecf472b")
-		)
-		(pin "G"
-			(uuid "0a801e89-8f4d-4878-9253-42f119332e3b")
-		)
-		(pin "S"
-			(uuid "61367add-5102-4d0d-aed7-a068f0c3f2ee")
-		)
-		(instances
-			(project "the-claw-if-pizza-planet-was-broke"
-				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 190.5 20.32 180)
 		(unit 1)
@@ -11302,7 +11245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 190.5 20.32 0)
 			(effects
 				(font
@@ -11372,7 +11315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal"
 			(at 267.97 147.32 0)
 			(effects
 				(font
@@ -11447,7 +11390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 58.42 82.55 0)
 			(effects
 				(font
@@ -11645,7 +11588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "the-claw:DB125-2.54-4P"
 			(at 217.17 137.16 0)
 			(effects
 				(font
@@ -12052,7 +11995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
 			(at 114.3 15.24 0)
 			(effects
 				(font
@@ -12103,7 +12046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e992b646-10e3-484f-812f-9f977ce0b638")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 111.76 114.046 90)
 			(effects
 				(font
@@ -12119,7 +12062,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 111.76 118.11 0)
 			(effects
 				(font
@@ -12155,7 +12098,7 @@
 		(instances
 			(project ""
 				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12251,7 +12194,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 158.75 66.04 90)
 			(effects
 				(font
@@ -12403,7 +12346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 55.5752 177.8 0)
 			(effects
 				(font
@@ -12611,7 +12554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin6"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
 			(at 41.91 53.34 0)
 			(effects
 				(font
@@ -12690,7 +12633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal"
 			(at 36.83 138.43 0)
 			(effects
 				(font
@@ -12733,6 +12676,77 @@
 			(project ""
 				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "the-claw:MS50N")
+		(at 180.34 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6f9ee9d-85ad-4ba3-a001-b99315c94487")
+		(property "Reference" "Q1"
+			(at 180.34 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MS50N"
+			(at 180.34 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 177.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, 60V 50A"
+			(at 180.34 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5704cca-2a48-4cef-a33e-0d2507169ddc")
+		)
+		(pin "2"
+			(uuid "d0c1a28b-ff21-4499-9ea9-c803343e7da0")
+		)
+		(pin "3"
+			(uuid "febc3d80-c4f7-4f5b-a7a5-c26249c431e2")
+		)
+		(instances
+			(project ""
+				(path "/f0cb4cfd-d1eb-4920-ac4e-4b18dafbd39f"
+					(reference "Q1")
 					(unit 1)
 				)
 			)

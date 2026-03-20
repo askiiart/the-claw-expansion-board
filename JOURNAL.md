@@ -56,6 +56,22 @@ This is as good a place as any to put the bed MOSFET, so why not. Plus it actual
 
 MOSFETs and to some extent voltage dividers and electricity in general confuse me so this took far longer than it should have and my brain nearly combusted. But uh yay done with that.
 
+![image](https://cdn.hackclub.com/019d09a4-1846-77e8-bb6e-f4fe3d3c1ec6/image.png)
+
+## 2026-03-19B - Routed PCB
+
+*3 hours*
+
+Took forever but I routed the PCB. Had to make custom symbols for the NMOSes so they'd work with the footprint properly, but it wasn't too bad. Also wow I love filling areas, very helpful.
+
+Oh also I was using inner layer trace widths so I had to redo that. Much more viable with external layers.
+
+The bed control area (many fills):
+
+![image](https://cdn.hackclub.com/019d09a8-46f9-7db9-b6f8-3d6e334637a3/image.png)
+
+...for how long this took it feels like there should be more to write, but no routing is just kinda boring. okay byeeeeeeeeeeeeeeeee
+
 ---
 
 Note: sorry if my journals seem a bit odd, originally they were part of the main printer project on Blueprint before being split off to a separate project. I will be leaving a reviewer note to subtract 5 hours from the journal entries being moved.

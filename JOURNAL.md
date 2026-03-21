@@ -72,7 +72,7 @@ The bed control area (many fills):
 
 ...for how long this took it feels like there should be more to write, but no routing is just kinda boring. okay byeeeeeeeeeeeeeeeee
 
-## 2026-03-20 - Fix bed control, add cooling, reroute PCB
+## 2026-03-20A - Fix bed control, add cooling, reroute PCB
 
 *4.5 hours*
 
@@ -84,6 +84,12 @@ Needed to fix the bed control, which was simple enough. However, two issues:
 This design can handle 15A easily (the power draw of the bed), 20A with a bit of heat, and 25A (the PSU's max) if I'm being *really* adventurous. But it's nearly impossible to max out every rail simultaneously, so just above 15A is probably the max this will ever reach.
 
 ![image](https://cdn.hackclub.com/019d0e44-11b0-78dd-ae60-ffa5722cdcf4/image.png)
+
+## 2026-03-20B - make BOM
+
+*1 hour*
+
+This is taking forever and is such a pain and libreoffice in its amazingness decided to make all the links the same so I'm redoing that now.
 
 ---
 

@@ -1435,7 +1435,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/libs/3d-models/XT60PW-F.STEP"
+			(offset
+				(xyz 4 -2 -0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
 			)
 		)
 	)
@@ -3341,7 +3352,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/libs/3d-models/XT60PW-F.STEP"
+			(offset
+				(xyz 4 -2 -0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 180 -0)
 			)
 		)
 	)
@@ -9616,6 +9638,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/libs/3d-models/XT30PW-F.STEP"
+			(offset
+				(xyz -2.5 6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "the-claw:CONN-SM12B-ZPDSS-TF"
 		(layer "F.Cu")
@@ -10946,6 +10979,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/libs/3d-models/XT30PW-F.STEP"
+			(offset
+				(xyz -2.5 6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -16171,6 +16215,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/libs/3d-models/XT30PW-F.STEP"
+			(offset
+				(xyz -2.5 6 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
 			)
 		)
 	)

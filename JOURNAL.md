@@ -52,7 +52,7 @@ I also went through and selected components, nothing too interesting there, stic
 
 *1.5 hours*
 
-This is as good a place as any to put the bed MOSFET, so why not. Plus it actually need supporting circuitry sooooo it really need a PCB anyways. Regardless, I checked out [this](https://frank26080115.github.io/Bones-3D-Printer/other_pages/externalmosfet.html) blog post on how to use an external bed MOSFET to make sure I'm actually doing it competently. Anyways, just using 
+This is as good a place as any to put the bed MOSFET, so why not. Plus it actually need supporting circuitry sooooo it really need a PCB anyways. Regardless, I checked out [this](https://frank26080115.github.io/Bones-3D-Printer/other_pages/externalmosfet.html) blog post on how to use an external bed MOSFET to make sure I'm actually doing it competently. Anyways, just using
 
 MOSFETs and to some extent voltage dividers and electricity in general confuse me so this took far longer than it should have and my brain nearly combusted. But uh yay done with that.
 
@@ -71,6 +71,19 @@ The bed control area (many fills):
 ![image](https://cdn.hackclub.com/019d09a8-46f9-7db9-b6f8-3d6e334637a3/image.png)
 
 ...for how long this took it feels like there should be more to write, but no routing is just kinda boring. okay byeeeeeeeeeeeeeeeee
+
+## 2026-03-20 - Fix bed control, add cooling, reroute PCB
+
+*4.5 hours*
+
+Needed to fix the bed control, which was simple enough. However, two issues:
+
+1. The PSU doesn't have enough power outputs, so the board and bed have to share one connection.
+2. With this new design with all the board's power running through one XT60 plug, it's very difficult to run that much power. To hopefully alleviate some of the heat, I will be adding a fan - found [this](https://www.aliexpress.us/item/3256804645826698.html) (7515 12V) and it seems to be a good fit.
+
+This design can handle 15A easily (the power draw of the bed), 20A with a bit of heat, and 25A (the PSU's max) if I'm being *really* adventurous. But it's nearly impossible to max out every rail simultaneously, so just above 15A is probably the max this will ever reach.
+
+![image](https://cdn.hackclub.com/019d0e44-11b0-78dd-ae60-ffa5722cdcf4/image.png)
 
 ---
 

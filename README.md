@@ -9,7 +9,7 @@ An expansion board to support further modding for my printer I'm desinging for B
 - MOSFET to turn bed on/off, rather than depending on messy external setup
 - Able to handle the maximum current (25A, 7.5A for buck converters) anywhere
 
-![A 3D model of the PCB](https://cdn.hackclub.com/019d0e58-f612-7da3-8d09-1e45f510a89f/image.png)
+![A 3D model of the PCB](/readme-assets/image.png)
 
 ## Parts
 
@@ -24,7 +24,8 @@ An expansion board to support further modding for my printer I'm desinging for B
 |BSS84 (PMOS)                        |$0.01 |1       |https://www.lcsc.com/product-detail/C50386320.html                                   |$0.55     |                                                               |
 |PZ254-3-03-Z-2.5-G0 (3x3 pins)      |$0.21 |1       |https://www.lcsc.com/product-detail/C7429377.html                                    |$1.03     |                                                               |
 |XT30PW-F20.G.Y (XT30 headers)       |$0.33 |3       |https://www.lcsc.com/product-detail/C2913282.html                                    |$1.00     |                                                               |
-|XT60PW-F (XT60 headers)             |$0.55 |2       |https://www.lcsc.com/product-detail/C428722.html                                     |$1.10     |                                                               |
+|XT60PW-F (XT60 female headers)      |$0.55 |1       |https://www.lcsc.com/product-detail/C428722.html                                     |$0.55     |                                                               |
+|XT60PW-M (XT60 male header)         |$0.52 |1       |https://www.lcsc.com/product-detail/C98732.html                                      |$0.52     |                                                               |
 |S3B-XH-A(LF)(SN) (XH 3P R/A)        |$0.09 |1       |https://www.lcsc.com/product-detail/C157928.html                                     |$0.92     |                                                               |
 |S4B-XH-A-1(LF)(SN) (XH 4P R/A)      |$0.15 |2       |https://www.lcsc.com/product-detail/C157925.html                                     |$0.77     |                                                               |
 |SM12B-ZPDSS-TF(LF)(SN) (ZPD 12P R/A)|$0.80 |1       |https://www.lcsc.com/product-detail/C265342.html                                     |$0.80     |                                                               |
@@ -43,17 +44,16 @@ An expansion board to support further modding for my printer I'm desinging for B
 |MF1/4W-470Ω±1% T (470 resistor)     |$0.01 |1       |https://www.lcsc.com/product-detail/C119317.html                                     |$0.58     |                                                               |
 |1N4148TR (diode)                    |$0.02 |1       |https://www.lcsc.com/product-detail/C84410.html                                      |$0.80     |                                                               |
 |2.54mm jumpers                      |$0.01 |4       |https://www.lcsc.com/product-detail/C2998928.html                                    |$0.44     |                                                               |
-|Temperature sensor                  |$0.46 |1       |https://www.lcsc.com/product-detail/C31810.html                                      |$0.46     |                                                               |
+|TMP100NA/3K (temp sensor)           |$0.46 |1       |https://www.lcsc.com/product-detail/C31810.html                                      |$0.46     |                                                               |
 |9733 24V fan                        |$6.39 |1       |https://www.aliexpress.us/item/3256804645826698.html                                 |$6.39     |                                                               |
 |Wire crimping tool                  |$15.99|1       |https://www.amazon.com/Crimping-Amliber-Connectors-Electrical-Terminals/dp/B0D1FR76Q7|$15.99    |                                                               |
 |                                    |      |        |                                                                                     |          |                                                               |
-|Subtotal                            |      |        |                                                                                     |$47.31    |                                                               |
+|Subtotal                            |      |        |                                                                                     |$47.28    |                                                               |
 |                                    |      |        |                                                                                     |          |                                                               |
-|JLCPCB                              |      |        |                                                                                     |$5.30     |                                                               |
+|JLCPCB                              |      |        |                                                                                     |$7.30     |                                                               |
 |LCSC shipping                       |      |        |                                                                                     |$14.56    |                                                               |
 |                                    |      |        |                                                                                     |          |                                                               |
-|Total                               |      |        |                                                                                     |$72.71    |                                                               |
-
+|Total                               |      |        |                                                                                     |$74.84    |                                                               |
 
 ## Notes
 

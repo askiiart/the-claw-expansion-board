@@ -2,6 +2,8 @@
 
 ## NOTE: OH GOD I JUST REALIZED I USED LDOs PLEASE PLEASE PLEASE SWITCH THOSE OUT FOR BUCK CONVERTERS IF YOU DO THIS YOURSELF I HAVE UP TO 232.5 WATTS OF HEAT FOR NO REASON
 
+Would recommmend swapping it out for a XL4016E1. Will be updated with that eventually.
+
 An expansion board to support further modding for my printer I'm desinging for Blueprint. The goals of this are:
 
 - Power output rails on 24V, 12V, and 5V

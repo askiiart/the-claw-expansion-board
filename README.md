@@ -1,6 +1,10 @@
 # The Claw Expansion Board
 
-## NOTE: OH GOD I JUST REALIZED I USED LDOs PLEASE PLEASE PLEASE SWITCH THOSE OUT FOR BUCK CONVERTERS IF YOU DO THIS YOURSELF I HAVE UP TO 232.5 WATTS OF HEAT FOR NO REASON
+## WARNING: EXTREME HEAT
+
+This design accidentally used an LDO, which can lead to up to ~240 watts of excess heat being generated. Do not use this as it is now! Change the design to use a buck converter instead.
+
+---
 
 Would recommmend swapping it out for a XL4016E1. Will be updated with that eventually.
 
